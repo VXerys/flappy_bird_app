@@ -21,7 +21,7 @@ class PipeManager extends Component with HasGameRef<FlappyBird> {
 
   void spawnPipe() {
     final double screenHeight = gameRef.size.y;
-    const double pipeGap = 150;
+    const double pipeGap = 220;
     const double minPipeHeight = 50;
     const double pipeWidth = 60;
 
